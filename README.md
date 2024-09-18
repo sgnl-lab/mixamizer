@@ -5,9 +5,10 @@
 * Make sure you have ONE track selected in the NLA editor. This track SHOULD BE for whatever armature/action that is the 'zero' action.
 * Don't run all these functions at once. Do them function by function and observe the results. *I want comments and feedback, and I would love for someone to fork this.*
 * [Video Demonstration](https://www.youtube.com/watch?v=nT7XBLynVOo)
+
 ### This will rename all of your actions to 0-len(actions)!!!!
 ### AND push them all down
-### AND add the corresponding action strips to action["0"]
+### AND add the corresponding action strips to the first action (usually what gets renamed to "0"),
 ### AND set the value of root channels to the last value and offset every keyframe
 
 ### YOU HAVE BEEN WARNED

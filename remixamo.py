@@ -106,6 +106,7 @@ def offset_action_root(root_fcurve_group,channel_index_offset,move_z):
         
         channel_keyframe_map = {}
         channel_range = 2        
+        # Do we move z? I dunno...
         if move_z:
             channel_range = 3
 

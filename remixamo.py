@@ -118,8 +118,20 @@ def offset_action_root(root_fcurve_group,channel_index_offset,move_z):
             for key in this_channel.keyframe_points:
                 this_channel.keyframe_points.insert(key.co.x,key.co.y + root_bone_offsets[chan_idx],options={"REPLACE"})
 
+# If you're a chaos-inspired weirdo like me, and you want to burn it all down, run these all at once.
+# What I would really like to do is make this a proper addon, but I'm not there yet.
+# Uncomment these one by one and observe the chaos. Adjust as needed
 
-ren_actions()
-push_all_down()
-collate_actions(10)
-offset_action_root("Root",0,False)
+# print("Renaming actions to '0' through the number of actions in the scene")
+# ren_actions()
+
+# print("Pushing all actions down to NLA tracks")
+# push_all_down()
+
+# print("Consolidate actions into one track (the first, usually '0') with a gap size of 10")
+# collate_actions(10)
+
+# Offset each action's root bone by the last frame's root bone position. Last argument is whether or not to move the Z axis.
+# NOTE: the root bone z axis movement is slightly broken. The z axis is not being moved correctly but the x and y are.
+# NOTE: THIS CAN PROBABLY BE DONE MORE ELEGANTLY WITH VECTOR MATH
+# offset_action_root("Root",0,False)

@@ -5,6 +5,7 @@
 * Make sure you have ONE track selected in the NLA editor. This track SHOULD BE for whatever armature/action that is the 'zero' action.
 * Don't run all these functions at once. Do them function by function and observe the results. *I want comments and feedback, and I would love for someone to fork this.*
 * [Video Demonstration](https://www.youtube.com/watch?v=nT7XBLynVOo)
+* [Demo I made with it](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DrwyaVG6dCHc%26fbclid%3DIwZXh0bgNhZW0CMTAAAR3HoVkKRb9tw5h9_HemnO2FZ0cmwIvCA85VUpeLP5w374gps6iwh8FdOGs_aem_LMMZ9luLCLK2T8Gk8ZXX6g&h=AT1aRbtGJyVDY-Oiw8L1qgV88jZQMYzCYG1OT7tmTTSl2XGAbgR8t8hCO-siEuaLCWUzubaUbyA4MRJdn9qllWRlQzHHg2lKSdSOG4F_h7i85JCdMCAudvuR_8McEJfAYg-DqcTcOn2dqxQrdeo) (music is me, stage and model ripped from Steam Workshop...this video is unlisted and I'm not making any money from it.)
 
 ### This will rename all of your actions to 0-len(actions)!!!!
 ### AND push them all down
